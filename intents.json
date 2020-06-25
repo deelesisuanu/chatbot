@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day"
+      ],
+      "responses": ["Sad to see you go :( !Bye", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Dele.",
+        "I'm Dele!",
+        "I'm Dele aka Oracle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation"
+      ],
+      "responses": ["We are open 7am-4pm Monday-Friday!"],
+      "context_set": ""
+    },
+    {
+      "tag": "criterion",
+      "patterns": [
+        "what are the criteria for admission",
+        "what do I need to be admitted",
+        "how do i get admitted"
+      ],
+      "responses": [
+              "You are required to have your Jamb",
+              "You need to have written Jamb"
+        ],
+      "context_set": ""
+    },
+    {
+      "tag": "criteria",
+      "patterns": [
+        "what are the jamb courses",
+        "what courses in jamb"
+      ],
+      "responses": [
+              "Your course depends on your field of study"
+        ],
+      "context_set": ""
+    },
+    {
+      "tag": "staff_dept_computer",
+      "patterns": [
+        "what are the names of staffs in computer science",
+        "computer science staffs",
+        "names of computer science staffs"
+      ],
+      "responses": [
+              "Mr James Alan, Mrs Joel Ananias.",
+              "Miss Josephine Yemi, Mrs Johnson Martha."
+        ],
+      "context_set": ""
+    },
+    {
+      "tag": "jamb_sales",
+      "patterns": [
+        "jamb form sales",
+        "when will form sales commence"
+      ],
+      "responses": [
+              "Sales and Registration will commence on 10th January 2020."
+        ],
+      "context_set": ""
+    },
+    {
+      "tag": "cost_reg",
+      "patterns": [
+        "what is the cost of jamb form",
+        "what is the cost of registering",
+        "what is the cost of getting a jamb form"
+      ],
+      "responses": [
+              "Cost of Registration is #3,500, Service charge is #700"
+        ],
+      "context_set": ""
+    },
+    {
+      "tag": "reading_text",
+      "patterns": [
+        "reading text price",
+        "what is the cost of getting a reading text",
+        "how do i obtain a reading text"
+      ],
+      "responses": [
+              "Cost of Registration is #3,500"
+        ],
+      "context_set": ""
+    }
+  ]
+}
